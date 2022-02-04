@@ -5,3 +5,56 @@
   padding: 0%;
   margin: 0%;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  width: 100%;
+  position: fixed;
+}
+
+/* Float left*/
+.f-left {
+  float: left;
+}
+
+/* Float right*/
+.f-right {
+  float: right;
+}
+
+/*Size and position logo */
+.logo {
+  margin-left: 20px;
+  width: 90px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+/*Size and position buttons header */
+.btn {
+  font-size: x-small;
+  margin-top: 20px;
+  line-height: 20px;
+  padding: 0 15px;
+  margin-right: 10px;
+}
+
+header li {
+  list-style-type: none;
+}
+
+.btn a {
+  color: black;
+  text-decoration: none;
+}
+
+/*Background blue with color white */
+.bg-blue {
+  background-color: hsl(217deg 100% 50%);
+  color: white;
+}
