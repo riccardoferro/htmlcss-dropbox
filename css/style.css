@@ -51,7 +51,7 @@ header li {
   list-style-type: none;
 }
 /* Remove underline of the a href in the list items*/
-header a {
+a {
   text-decoration: none;
 }
 /*Color text black*/
@@ -74,4 +74,49 @@ header a {
   content: "";
   display: table;
   clear: both;
+}
+
+.jumbotron {
+  padding-top: 60px;
+  background-color: hsl(207deg 52% 81%);
+}
+
+.big-container {
+  width: 80%;
+  margin: auto;
+}
+
+.little-container {
+  width: 25%;
+}
+
+.display-block {
+  display: block;
+}
+
+.f13px {
+  font-size: 13px;
+}
+
+.jumbotron h1 {
+  font-size: 65px;
+  margin: 50px 0;
+}
+
+.jumbotron a {
+  width: 190px;
+  margin-bottom: 40px;
+}
+
+.fas {
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.jumbotron img {
+  width: 75%;
+}
+
+section {
+  height: 500px;
 }
