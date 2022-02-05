@@ -16,6 +16,7 @@ header {
   vertical-align: middle;
   width: 100%;
   position: fixed;
+  background-color: white;
 }
 
 /* Float left*/
@@ -35,26 +36,42 @@ header {
   padding-top: 20px;
   margin-right: 20px;
 }
+
 /*Size and position buttons header */
 .btn {
-  font-size: x-small;
+  font-size: 13px;
   margin-top: 20px;
   line-height: 20px;
-  padding: 0 15px;
+  padding: 5px 15px;
   margin-right: 10px;
 }
 
+/* Remove underline bullet from list items*/
 header li {
   list-style-type: none;
 }
-
-.btn a {
-  color: black;
+/* Remove underline of the a href in the list items*/
+header a {
   text-decoration: none;
 }
+/*Color text black*/
+.c-black {
+  color: black;
+}
 
-/*Background blue with color white */
+/*Color text white*/
+.c-white {
+  color: white;
+}
+
+/*Background blue*/
 .bg-blue {
   background-color: hsl(217deg 100% 50%);
-  color: white;
+}
+
+/* Resetting floating*/
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
