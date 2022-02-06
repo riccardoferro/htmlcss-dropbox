@@ -82,7 +82,7 @@ a {
 }
 
 .big-container {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
@@ -90,31 +90,39 @@ a {
   width: 25%;
 }
 
+/* Set display block of an element */
 .display-block {
   display: block;
 }
-
+/*Font size 13px*/
 .f13px {
   font-size: 13px;
 }
 
+/*Size h1 ofjumbotron*/
 .jumbotron h1 {
   font-size: 65px;
   margin: 50px 0;
 }
 
+/*Size and margin tag a of jumbotron*/
 .jumbotron a {
   width: 190px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
+/* Custom arrow-down*/
 .fas {
   margin-top: 40px;
   font-size: 50px;
+  margin-bottom: 80px;
 }
 
+/*Size img of jumbotron */
 .jumbotron img {
-  width: 75%;
+  margin-left: 100px;
+  position: absolute;
+  width: 50%;
 }
 
 section {
