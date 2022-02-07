@@ -159,10 +159,6 @@ header a,
   left: 350px;
 }
 
-.tables {
-  margin-bottom: 200px;
-}
-
 /*Positioning title of h2 */
 .tables h2 {
   margin: 100px 0 50px 0;
@@ -267,3 +263,30 @@ section li {
 }
 
 /* Finish custom content large column*/
+
+/*Start customize section partner */
+.find-partner {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.find-partner img {
+  width: 55%;
+}
+
+.find-partner a {
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.search-p {
+  width: 40%;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.search-p p {
+  margin: 20px 0;
+}
+
+/* Finish customize section partner*/
