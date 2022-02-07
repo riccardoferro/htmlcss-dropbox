@@ -40,6 +40,7 @@ header {
 
 /*Size and position buttons header */
 .btn {
+  text-align: center;
   font-size: 13px;
   margin-top: 20px;
   line-height: 20px;
@@ -52,7 +53,8 @@ header li {
   list-style-type: none;
 }
 /* Remove underline of the a href in the list items*/
-a {
+header a,
+.jumbotron a {
   text-decoration: none;
 }
 /*Color text black*/
@@ -82,19 +84,26 @@ a {
   background-color: hsl(207deg 52% 81%);
 }
 
-.big-container {
-  width: 75%;
-  margin: auto;
+/* Position relative */
+
+.p-relative {
   position: relative;
 }
 
-.medium-container {
-  width: 60%;
+/*Container with width 75% */
+.container75p {
+  width: 75%;
   margin: auto;
-  height: 100%;
 }
 
-.little-container {
+/*Container with width 60% */
+.container60p {
+  width: 60%;
+  margin: auto;
+}
+
+/*Container with width 25% */
+.container25p {
   width: 25%;
 }
 
@@ -102,9 +111,15 @@ a {
 .display-block {
   display: block;
 }
+
 /*Font size 13px*/
 .f13px {
   font-size: 13px;
+}
+
+/*Font size 11px*/
+.f11px {
+  font-size: 11px;
 }
 
 /*Size h1 ofjumbotron*/
@@ -120,7 +135,7 @@ a {
 }
 
 /* Custom arrow-down*/
-.fas {
+.jumbotron .fas {
   margin-top: 40px;
   font-size: 50px;
   margin-bottom: 80px;
@@ -135,23 +150,77 @@ a {
 }
 
 .tables {
-  height: 500px;
+  margin-bottom: 200px;
 }
 
+/*Positioning title of h2 */
 .tables h2 {
-  margin: 50px 0;
+  margin: 100px 0 50px 0;
   font-size: 35px;
 }
 
-.column {
-  margin: 1% 2%;
-  height: 300px;
-  width: calc(100% / 3 - 4%);
-  border: 1px solid grey;
+.radio-btn input:last-child {
+  margin-left: 20px;
 }
 
+/* Column of the section tables*/
+.column {
+  margin-top: 5%;
+  margin-right: 5%;
+  width: calc(100% / 3 - 4%);
+  border: 1px solid grey;
+  margin-bottom: 100px;
+}
+
+/* Custom first row of the column */
 .first-row-col {
   text-align: center;
+  vertical-align: middle;
   height: 30px;
-  border: 1px solid grey;
+  line-height: 30px;
+  border-bottom: 1px solid grey;
+  font-size: 13px;
 }
+
+/* Remove underline bullet from list items in the sections*/
+section li {
+  list-style-type: none;
+}
+
+/* Remove underline from a href "prova gratis per 30 giorni" */
+.column a.btn {
+  text-decoration: none;
+}
+
+.font-color-blue {
+  color: hsl(219deg 100% 54%);
+}
+
+/*  Start custom distance blocks's column*/
+
+.first-block-column {
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+.second-block-column li {
+  margin-bottom: 20px;
+}
+
+.third-block-column {
+  margin: 20px 0 40px 0;
+}
+
+.third-block-column span {
+  padding-bottom: 20px;
+}
+
+.third-block-column a:first-child {
+  margin-bottom: 20px;
+}
+
+.fourth-block-column li {
+  margin: 20px 0 20px 0;
+}
+
+/* Finish custom distance fourth block column */
