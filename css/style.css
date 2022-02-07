@@ -267,7 +267,7 @@ section li {
 /*Start customize section partner */
 .find-partner {
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .find-partner img {
@@ -290,3 +290,37 @@ section li {
 }
 
 /* Finish customize section partner*/
+
+/* Start section operations */
+
+.operations {
+  margin-bottom: 100px;
+}
+
+.operations img {
+  width: 100%;
+}
+
+.operations h2 {
+  font-size: 35px;
+}
+
+.s-operation {
+  width: calc(100% / 3 - 20px);
+}
+
+.s-operation h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.s-operation span {
+  text-decoration-line: underline;
+}
+
+.row-s-operation {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+/* Finish section operations */
