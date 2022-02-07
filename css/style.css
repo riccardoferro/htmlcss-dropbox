@@ -175,7 +175,7 @@ header a,
   width: calc(100% / 3 - 20px);
   border: 1px solid grey;
   margin-bottom: 100px;
-  height: 850px;
+  height: 950px;
 }
 
 /*Centralize the column of the section tables */
@@ -229,6 +229,7 @@ section li {
 
 .third-block-column a:first-child {
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .fourth-block-column li {
@@ -324,3 +325,43 @@ section li {
 }
 
 /* Finish section operations */
+
+.team {
+  margin-bottom: 200px;
+}
+
+.team h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.collection-team {
+  height: 400px;
+  width: 100%;
+}
+
+.aside-left {
+  width: 30%;
+}
+
+.square {
+  width: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
