@@ -325,21 +325,18 @@ section li {
 
 /* Start section team */
 
+/* setting bottom of the entire section team  */
 .team {
   margin-bottom: 200px;
 }
 
+/* setting font of title  */
 .team h2 {
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-.collection-team {
-  height: 400px;
-  width: 100%;
-  margin-top: 30px;
-}
-
+/* setting width height and margin of the all aside  */
 .aside-left {
   width: 30%;
   height: 400px;
@@ -352,22 +349,26 @@ section li {
   height: 400px;
   background-color: hsl(0deg 0% 96%);
 }
+
 .aside-right {
   margin-top: 30px;
   width: 30%;
   height: 400px;
 }
 
+/* making square  */
 .square {
   height: 50%;
   width: 50%;
   position: relative;
 }
 
+/* border of the first square in the aside-left */
 .border {
   border: 5px solid hsl(114deg 39% 86%);
 }
 
+/* dimension's images and position */
 .aside-left img,
 .aside-right img {
   position: absolute;
@@ -380,20 +381,27 @@ section li {
     contrast(102%);
 }
 
+/* dimension's image aside center */
 .aside-center img {
   width: 100px;
   margin: 50px 0;
 }
 
-.aside-left::after {
+/* clearfix after the all aside part of the section team */
+.aside-left::after,
+.aside-center::after,
+.aside-right::after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* margin of the tag p inside the aside center  */
 .aside-center p {
   margin-bottom: 50px;
 }
+
+/* Finish section team */
 
 /* Backgrund colors */
 
@@ -428,3 +436,5 @@ section li {
 .darkblue {
   background-color: hsl(228deg 82% 28%);
 }
+
+/* finish background colors */
