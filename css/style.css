@@ -199,11 +199,6 @@ section li {
   list-style-type: none;
 }
 
-/* Remove underline from a href "prova gratis per 30 giorni" */
-.column a.btn. {
-  text-decoration: none;
-}
-
 .font-color-blue {
   color: hsl(219deg 100% 54%);
 }
@@ -226,6 +221,8 @@ section li {
 .third-block-column span {
   padding-bottom: 20px;
 }
+
+/* Remove underline from a href "prova gratis per 30 giorni" */
 
 .third-block-column a:first-child {
   margin-bottom: 20px;
@@ -265,7 +262,7 @@ section li {
 
 /* Finish custom content large column*/
 
-/*Start customize section partner */
+/*Start customize section find-partner */
 .find-partner {
   margin-top: 150px;
   margin-bottom: 100px;
@@ -326,6 +323,8 @@ section li {
 
 /* Finish section operations */
 
+/* Start section team */
+
 .team {
   margin-bottom: 200px;
 }
@@ -338,30 +337,94 @@ section li {
 .collection-team {
   height: 400px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .aside-left {
   width: 30%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.aside-center {
+  margin-top: 30px;
+  width: 40%;
+  height: 400px;
+  background-color: hsl(0deg 0% 96%);
+}
+.aside-right {
+  margin-top: 30px;
+  width: 30%;
+  height: 400px;
 }
 
 .square {
+  height: 50%;
   width: 50%;
+  position: relative;
 }
+
+.border {
+  border: 5px solid hsl(114deg 39% 86%);
+}
+
+.aside-left img,
+.aside-right img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  /* Bg white for every img*/
+  filter: invert(98%) sepia(0%) saturate(6%) hue-rotate(151deg) brightness(102%)
+    contrast(102%);
+}
+
+.aside-center img {
+  width: 100px;
+  margin: 50px 0;
+}
+
+.aside-left::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aside-center p {
+  margin-bottom: 50px;
+}
+
+/* Backgrund colors */
 
 .red {
   background-color: red;
 }
 
+.lightgrey {
+  background-color: hsl(207deg 52% 81%);
+}
+
+.lightred {
+  background-color: hsl(351deg 100% 42%);
+}
+
+.bordeaux {
+  background-color: hsl(336deg 85% 21%);
+}
+
 .yellow {
-  background-color: yellow;
+  background-color: hsl(49deg 100% 59%);
 }
 
-.green {
-  background-color: green;
+.lightblue {
+  background-color: hsl(197deg 100% 40%);
 }
 
-.square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+.lightgreen {
+  background-color: hsl(113deg 39% 72%);
+}
+
+.darkblue {
+  background-color: hsl(228deg 82% 28%);
 }
