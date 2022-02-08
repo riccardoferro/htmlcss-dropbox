@@ -325,11 +325,6 @@ section li {
 
 /* Start section team */
 
-/* setting bottom of the entire section team  */
-.team {
-  margin-bottom: 200px;
-}
-
 /* setting font of title  */
 .team h2 {
   font-size: 35px;
@@ -438,3 +433,30 @@ section li {
 }
 
 /* finish background colors */
+
+/* starting section free trial  */
+
+.free-trial {
+  height: 300px;
+  background-color: hsl(207deg 52% 81%);
+  margin-bottom: 100px;
+}
+/* custom h2, font, color.. */
+.free-trial h2 {
+  display: inline-block;
+  font-size: 35px;
+  color: hsl(336deg 85% 21%);
+  margin-top: 100px;
+}
+
+/* custom tag a href in the section free trial  */
+.free-trial a {
+  background-color: hsl(0deg 0% 100%);
+  text-decoration: none;
+  position: absolute;
+  right: 0%;
+  top: 100px;
+  padding: 5px 50px;
+}
+
+/* finish section free trial  */
