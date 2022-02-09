@@ -460,3 +460,34 @@ section li {
 }
 
 /* finish section free trial  */
+
+/* start section questions frequently  */
+
+.questions-frequent {
+  height: 400px;
+}
+
+.questions-frequent h2 {
+  font-size: 25px;
+  border-bottom: 1px solid grey;
+  padding: 40px 0;
+}
+
+.question {
+  padding: 30px 0;
+  border-bottom: 1px solid grey;
+}
+
+.question a {
+  position: absolute;
+  right: 0;
+}
+
+.question p {
+  padding-top: 20px;
+  display: none;
+}
+
+p a:visited {
+  display: block;
+}
