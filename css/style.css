@@ -464,7 +464,7 @@ section li {
 /* start section questions frequently  */
 
 .questions-frequent {
-  height: 400px;
+  margin-bottom: 100px;
 }
 
 .questions-frequent h2 {
@@ -488,6 +488,6 @@ section li {
   display: none;
 }
 
-p a:visited {
+a:hover + p {
   display: block;
 }
